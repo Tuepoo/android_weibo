@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/ll_luntan"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:orientation="vertical"
+        android:background="@drawable/bg_white2gray_sel"
+        android:layout_margin="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_avatar_luntan"
+                android:layout_marginLeft="12dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical"
+                android:scaleType="fitCenter"
+                android:src="@drawable/avatar_luntan01"/>
+
+            <RelativeLayout
+                android:id="@+id/rl_content"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/tv_subhead_luntan"
+                    style="@style/TextViewSubhead"
+                    android:textColor="@color/colorOrange"
+                    android:text="光催化技术原理"/>
+
+                <TextView
+                    android:id="@+id/tv_caption_luntan"
+                    style="@style/TextViewCaption"
+                    android:layout_alignParentBottom="true"
+                    android:textColor="@color/txt_gray"
+                    android:text="本帖主要介绍光催化的原理，首先介绍光催化的定义，其次会介绍到光催化剂"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/img_luntan"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/luntan01"
+            android:scaleType="fitCenter"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
